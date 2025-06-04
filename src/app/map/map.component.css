@@ -1,0 +1,98 @@
+
+svg path {
+    fill: rgb(81, 119, 46);
+    stroke: rgb(0, 34, 12);
+    stroke-width: 0.8px;
+}
+
+svg path:hover {
+    fill: rgb(255, 196, 0);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.column2 {
+    float: left;
+    width: 40%;
+    padding-top: 70px;
+  }
+  
+  .column {
+    float: right;
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px; 
+    margin-right: 100px;
+    margin-top: 15%;
+    background-color: #a7b30cc5;
+    border-left: 2px solid #a5a5a5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: -1px;
+    color: #454545;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 8px 8px 24px 0px rgb(0, 0, 0);
+    box-shadow: 8px 8px 24px 0px rgb(0, 0, 0);
+  }
+
+   .text {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;  }
+
+    #BigText {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      letter-spacing: -2px;
+      word-spacing: -1px;
+      color: #ffffff;
+      font-weight: 700;
+      font-style: normal;
+      font-variant: small-caps;
+      text-transform: capitalize;
+      text-shadow: 1px 1px 2px rgb(0, 0, 0);
+      
+    }
+
+  svg {
+    width: 155%;           /* Pushes it to the left side */
+    height: auto;
+    margin-left: 5%;    /* Adds a bit of spacing from the left edge */
+    margin-right: 5%;   /* Adds spacing between map and the info column */
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(69, 65%, 17%);
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  
+  .navbar-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: -2px;
+    word-spacing: -1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  }
